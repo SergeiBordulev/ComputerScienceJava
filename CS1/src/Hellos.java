@@ -2,22 +2,21 @@
 public class Hellos {
 	public static void main(String[] args) {
 		
-		
 		int a = Integer.parseInt(args[0]);
-		int i = 1;
 				
-		while (i <= a) {
-			if (i==1) System.out.println("1st Hello!");
-			else if (i==2) System.out.println("2nd Hello!");
-			else if (i==3) System.out.println("3rd Hello!");
-			else if (i % 100 == 0) {
-				System.out.println(i + "--th Hello!");
+		for(int i = 1; i <=a; i++) {
+			System.out.print(i);
+			
+			if(i % 100 >= 11 && i % 100 <=20) {
+				System.out.print("th");
 			}
-			else if (i % 10 == 0) {
-				System.out.println(i + "-th Hello!");
-			}
-			else System.out.println(i + "th Hello!");
-			i += 1;
+			else if(i%10 == 1) System.out.print("st");
+			else if(i%10 == 2) System.out.print("nd");
+			else if(i%10 == 3) System.out.print("rd");
+			else System.out.print("th");
+			
+			System.out.println(" Hello!");
 		}
+		
 	}
 }

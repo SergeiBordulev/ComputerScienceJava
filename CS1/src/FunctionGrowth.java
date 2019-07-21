@@ -1,7 +1,11 @@
 /******************************************************************************
+ *  Exercises 1.3.12:
+ *  Write a program FunctionGrowth.java that prints a table of the values of ln n, n, n ln n, n2, n3, and 2n for n = 16, 32, 64, ..., 2048. Use tabs ('\t' characters) to line up columns.
+ *  
  *  Compilation:  javac FunctionGrowth.java
  *  Execution:    java FunctionGrowth
- *	Author Book: Robert Sedgewick and Kevin Wayne. 
+ *	Author Book: Robert Sedgewick and Kevin Wayne
+ *	
  *	
  *  Print out log n, n log n, n^2, n^3, 2^n for n = 2, 4, 8, ..., 2048.
  *
